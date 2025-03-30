@@ -1,7 +1,5 @@
 # test_cases/conftest.py
 import logging
-import os
-import subprocess
 import time
 
 import pytest
