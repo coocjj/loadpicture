@@ -1,0 +1,19 @@
+# 开发环境配置
+appium:
+  host: "http://localhost:4723"
+  log_level: "warn"
+  session_timeout: 600
+
+android:
+  app_name: "app-debug.apk"
+  implicit_wait: 10
+  page_load_timeout: 30
+  default_activity: ".MainActivity"
+
+devices:
+  default:
+    platformName: "Android"
+    automationName: "UiAutomator2"
+    deviceName: "ANA_AN00"
+    udid: "NAB0220806008841"
+    noReset: false

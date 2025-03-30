@@ -1,0 +1,23 @@
+devices:
+  aos_huawei_p40:
+    platformName: "Android"
+    automationName: "UiAutomator2"
+    deviceName: "ANA_AN00"
+    udid: "NAB0220806008841"
+#    app: "apps/philippines-cert-3.56.0-secure-debugProguard-8684.signed.rasp.apk"
+    appPackage: "com.maxwealthfl.mwhoe"
+    appActivity: ".MainActivity"
+    noReset: false
+    fullReset: false
+    newCommandTimeout: 300
+  ios_ios11:
+    "platformName": "iOS"
+    "appium:platformVersion": "16.6.1"
+    "appium:deviceName": "iPhone 11"
+    "appium:automationName": "XCUITest"
+#    "appium:app": "apps/Philippines-shielded.ipa"
+    "appium:bundleId": "com.maxwealthfl.mwhoe"
+    "appium:noReset": "true"
+    "appium:udid": "00008030-000315881463802E"
+    "appium:shouldTerminateApp": true
+
